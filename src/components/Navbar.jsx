@@ -52,7 +52,7 @@ function Navbar() {
                 <ul>
                   <li>
                     <Link
-                      to="/projects/benefits"
+                      to="./projects/benefits"
                       className="block px-4 py-2 hover:bg-green-100"
                     >
                       Benefits
@@ -60,7 +60,7 @@ function Navbar() {
                   </li>
                   <li>
                     <Link
-                      to="/projects/components"
+                      to="./projects/components"
                       className="block px-4 py-2 hover:bg-green-100"
                     >
                       Components
@@ -68,7 +68,7 @@ function Navbar() {
                   </li>
                   <li>
                     <Link
-                      to="/projects/areas-of-intervention"
+                      to="./projects/areas-of-intervention"
                       className="block px-4 py-2 hover:bg-green-100"
                     >
                       Areas of Intervention
@@ -78,17 +78,17 @@ function Navbar() {
               </div>
             </li>
             <li>
-              <Link to="/events" className="hover:underline underline-offset-10 hover:text-amber-700">
+              <Link to="./events" className="hover:underline underline-offset-10 hover:text-amber-700">
                 Events
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:underline underline-offset-10 hover:text-amber-700">
+              <Link to="./about" className="hover:underline underline-offset-10 hover:text-amber-700">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:underline underline-offset-10 hover:text-amber-700">
+              <Link to="./contact" className="hover:underline underline-offset-10 hover:text-amber-700">
                 Contact Us
               </Link>
             </li>
